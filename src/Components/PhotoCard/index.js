@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import { MdFavoriteBorder, MdFavorite } from 'react-icons/md'
 import { Article, ImgWrapper, Img, Button } from './styles'
 import { useLocalStorage } from '../../hooks/useLocalStorage'
@@ -25,7 +25,7 @@ export const PhotoCard = ({ id, likes = 0, src = DEFAULT_IMAGE }) => {
           <Button onClick={() => setLiked(!liked)}>
             <Icon size='25px' /> {likes} Likes!
           </Button>
-                </>
+        </>
       }
     </Article>
   )
