@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   ul {
+    padding: 0;
     list-style: none;
   }
 
@@ -34,9 +35,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   #app {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-    overflow-x: hidden;
     min-height: 100vh;
     padding-bottom: 10px;
+    padding: 0 20px;
+    overflow-x: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   }
 `
