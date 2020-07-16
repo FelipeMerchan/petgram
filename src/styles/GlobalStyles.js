@@ -37,7 +37,6 @@ export const GlobalStyle = createGlobalStyle`
   #app {
     min-height: 100vh;
     padding-bottom: 10px;
-    padding: 0 20px;
     overflow-x: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   }
